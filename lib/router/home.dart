@@ -73,6 +73,14 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            Container(
+              color: const Color.fromRGBO(0, 0, 0, 0.1),
+              child: const Text(
+                's',
+                style: TextStyle(
+                    fontSize: 12, color: Color.fromARGB(0, 7, 7, 105)),
+              ),
+            )
           ],
         ),
       ),

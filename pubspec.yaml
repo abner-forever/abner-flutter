@@ -1,5 +1,5 @@
 name: abner
-description: A new Flutter project.
+description: 个人博客-flutter版.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -37,7 +37,7 @@ dependencies:
   azlistview: ^2.0.0
   json_annotation: ^4.0.0
   english_words: ^4.0.0
-  dio: ^4.0.6  
+  dio: ^5.1.2  
   # flutter_webview_plugin: "^0.4.0"
   image_picker: ^0.8.5+3
   fluttertoast: ^8.0.9
@@ -50,6 +50,8 @@ dependencies:
   # webview_flutter: ^1.0.7
   flutter_redux: ^0.10.0
   redux: ^5.0.0
+  get: ^4.6.2
+  date_format: ^2.0.7
 dev_dependencies:
   flutter_test:
     sdk: flutter
